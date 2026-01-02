@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'Multiple_Leds.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "main.o" --strict --scatter "Multiple_Leds.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Multiple_Leds.map" -o Multiple_Leds.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Multiple_Leds.axf'
+### ADS-LD Command File: 'Multiple_Leds.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Multiple_Leds.lnp', Handle=0x00000658
+### Writing '.lnp' file
+### ADS-LD Command file 'Multiple_Leds.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
